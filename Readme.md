@@ -16,7 +16,7 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 Accurate inventory forecasting is essential for resilient supply chain management. Conventional forecasting systems typically provide only a single demand estimate, offering little information regarding prediction uncertainty or the operational risks associated with inventory decisions.
 
@@ -26,7 +26,7 @@ The prototype was developed as part of the **AI for Public Good: Sustainable & R
 
 ---
 
-# ✨ Key Features
+# Key Features
 
 * LightGBM-based demand forecasting
 * Quantile Regression (10th, 50th and 90th percentile forecasts)
@@ -40,7 +40,7 @@ The prototype was developed as part of the **AI for Public Good: Sustainable & R
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```
 Historical Sales Data
@@ -69,7 +69,7 @@ Interactive Dashboard
 
 ---
 
-# ⚙️ Machine Learning Pipeline
+# Machine Learning Pipeline
 
 ## Stage 1 — Data Preparation
 
@@ -143,7 +143,7 @@ to generate:
 
 ---
 
-# 📊 Dashboard Features
+# Dashboard Features
 
 The dashboard provides, for each inventory item:
 
@@ -157,7 +157,7 @@ The dashboard provides, for each inventory item:
 
 ---
 
-# 📁 Repository Structure
+#  Repository Structure
 
 ```
 Supply-Chain-Risk-Forecasting/
@@ -183,7 +183,7 @@ Supply-Chain-Risk-Forecasting/
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 ### Machine Learning
 
@@ -206,13 +206,13 @@ Supply-Chain-Risk-Forecasting/
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 This project utilizes the **Walmart M5 Forecasting Dataset**, containing historical product sales, calendar events, pricing information, and SNAP indicators across multiple stores.
 
 ---
 
-# 📈 Results
+# Results
 
 The proposed framework provides:
 
@@ -226,7 +226,7 @@ Rather than producing only a demand forecast, the system functions as a complete
 
 ---
 
-# 🚀 Future Scope
+# Future Scope
 
 Potential extensions include:
 
@@ -238,7 +238,7 @@ Potential extensions include:
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 Clone the repository
 
@@ -258,7 +258,7 @@ The machine learning pipeline can be reproduced using the notebook included in t
 
 ---
 
-# 👤 Authors
+# Authors
 
 **Arnav Singh**
 
