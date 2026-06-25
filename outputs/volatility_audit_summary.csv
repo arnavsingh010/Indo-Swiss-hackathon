@@ -1,0 +1,4 @@
+volatility_tier,Coverage,Mean Width,MAE
+Low,87.1%,4.96,1.5
+Medium,89.0%,2.46,0.82
+High,89.5%,1.18,0.34
