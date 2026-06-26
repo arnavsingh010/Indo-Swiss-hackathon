@@ -196,9 +196,8 @@ Supply-Chain-Risk-Forecasting/
 
 ### Frontend
 
-* Next.js
 * React
-* Tailwind CSS
+* Vite
 
 ### Deployment
 
