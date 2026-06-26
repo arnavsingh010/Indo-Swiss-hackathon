@@ -1,12 +1,12 @@
 # Supply Chain Risk Forecasting
 
-> **An AI-powered decision support system for risk-aware inventory forecasting using LightGBM, Quantile Regression, Conformal Prediction, SHAP Explainability, and a Business Decision Engine.**
+> **An Explainable AI-powered decision support system for risk-aware inventory forecasting using LightGBM, Quantile Regression, Conformal Prediction, SHAP Explainability, and a Business Decision Engine.**
 
 ---
 
 ## Live Demo
 
-**Frontend (Vercel):**
+**Live Prototype (Vercel):**
 
 > **https://indo-swiss-hackathon.vercel.app/**
 
@@ -36,7 +36,7 @@ The prototype was developed as part of the **AI for Public Good: Sustainable & R
 * Inventory risk classification
 * Risk-aware reorder quantity recommendation
 * Business Decision Engine for manager recommendations
-* Interactive dashboard built using Next.js
+* Interactive dashboard built using React and Vite
 
 ---
 
@@ -123,23 +123,22 @@ Feature contributions are aggregated into business-oriented categories:
 * Seasonality & Events
 * Data Reliability
 
-The Demand Trend component is separated to generate **Pure Risk Drivers**, allowing managers to understand why uncertainty exists.
-
+Demand Trend is separated from the uncertainty decomposition because it represents expected demand rather than forecasting uncertainty, resulting in the Pure Risk Breakdown used by the dashboard.
 ---
 
 ## Stage 6 — Decision Engine
 
 The Decision Engine combines:
 
-* Forecast uncertainty
-* Inventory risk level
-* Primary risk driver
+• Forecast uncertainty
+• Relative inventory risk level
+• Primary risk driver
 
 to generate:
 
-* Recommended reorder quantity
-* Inventory risk classification
-* Actionable manager recommendations
+• Recommended reorder quantity
+• Inventory risk classification
+• Manager action recommendations
 
 ---
 
@@ -161,11 +160,10 @@ The dashboard provides, for each inventory item:
 
 ```
 Supply-Chain-Risk-Forecasting/
-
 │
 ├── Frontend/
-│      Next.js dashboard
-│
+│      React + Vite dashboard
+│      
 ├── Models/
 │      Trained LightGBM models
 │
@@ -173,12 +171,14 @@ Supply-Chain-Risk-Forecasting/
 │      Dashboard data
 │      SHAP visualizations
 │      Evaluation reports
-│
-├── Notebook.ipynb
-│
-├── README.md
-│
-└── requirements.txt
+│      
+├── Notebook/
+|      final_prot.ipynb
+│      
+|── docs/
+|      Supply_Chain_Risk_Forecasting.pdf
+|
+└── README.md
 ```
 
 ---
@@ -192,7 +192,6 @@ Supply-Chain-Risk-Forecasting/
 * SHAP
 * NumPy
 * Pandas
-* Scikit-learn
 
 ### Frontend
 
@@ -242,7 +241,7 @@ Potential extensions include:
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/arnavsingh010/Indo-Swiss-hackathon.git
 ```
 
 Navigate to the frontend
@@ -261,6 +260,6 @@ The machine learning pipeline can be reproduced using the notebook included in t
 
 **Arnav Singh**
 
-Hackathon Submission
+Developed for
 
 **AI for Public Good: Sustainable & Resilient Supply Chains**
